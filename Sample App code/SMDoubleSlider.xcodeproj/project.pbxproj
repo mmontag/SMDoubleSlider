@@ -12,8 +12,6 @@
 		97CE97B00CE63C2F00AE57DC /* SampleAppMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = 97CE97AC0CE63C2700AE57DC /* SampleAppMain.nib */; };
 		AE6A26090B25BCA000045E4B /* palette.table in Resources */ = {isa = PBXBuildFile; fileRef = 0259C583FE90428111CA0C5A /* palette.table */; };
 		AE6A260B0B25BCA000045E4B /* SMDoubleSliderPalette.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6B3FBA3B04DECB0B00A80202 /* SMDoubleSliderPalette.nib */; };
-		AE6A260D0B25BCA000045E4B /* SMDoubleSliderInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C577FE90428111CA0C5A /* SMDoubleSliderInspector.m */; settings = {ATTRIBUTES = (); }; };
-		AE6A260E0B25BCA000045E4B /* SMDoubleSliderPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C578FE90428111CA0C5A /* SMDoubleSliderPalette.m */; settings = {ATTRIBUTES = (); }; };
 		AE6A260F0B25BCA000045E4B /* SMDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5250C04DC283800A80202 /* SMDoubleSlider.m */; };
 		AE6A26100B25BCA000045E4B /* SMDoubleSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5250D04DC283800A80202 /* SMDoubleSliderCell.m */; };
 		AE6A26120B25BCA000045E4B /* InterfaceBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E58F362FFB2327711CA0CBA /* InterfaceBuilder.framework */; };
@@ -26,10 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0259C577FE90428111CA0C5A /* SMDoubleSliderInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMDoubleSliderInspector.m; sourceTree = "<group>"; };
-		0259C578FE90428111CA0C5A /* SMDoubleSliderPalette.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMDoubleSliderPalette.m; sourceTree = "<group>"; };
-		0259C57BFE90428111CA0C5A /* SMDoubleSliderInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSliderInspector.h; sourceTree = "<group>"; };
-		0259C57CFE90428111CA0C5A /* SMDoubleSliderPalette.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSliderPalette.h; sourceTree = "<group>"; };
 		0259C583FE90428111CA0C5A /* palette.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = palette.table; path = "IB Palette code/palette.table"; sourceTree = "<group>"; };
 		2E58F362FFB2327711CA0CBA /* InterfaceBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilder.framework; path = /System/Library/Frameworks/InterfaceBuilder.framework; sourceTree = "<absolute>"; };
 		6B3FBA3B04DECB0B00A80202 /* SMDoubleSliderPalette.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SMDoubleSliderPalette.nib; path = "IB Palette code/SMDoubleSliderPalette.nib"; sourceTree = "<group>"; };
@@ -68,7 +62,6 @@
 		97CE97A90CE63C0300AE57DC /* SMDoubleSliderInspector.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SMDoubleSliderInspector.nib; path = "IB Palette code/SMDoubleSliderInspector.nib"; sourceTree = "<group>"; };
 		97CE97AB0CE63C2700AE57DC /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = "Sample App code/Credits.rtf"; sourceTree = "<group>"; };
 		97CE97AC0CE63C2700AE57DC /* SampleAppMain.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SampleAppMain.nib; path = "Sample App code/SampleAppMain.nib"; sourceTree = "<group>"; };
-		AE6A26190B25BCA000045E4B /* Info-IB_Palette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-IB_Palette.plist"; sourceTree = "<group>"; };
 		AE6A261A0B25BCA000045E4B /* SMDoubleSliderPalette.palette */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMDoubleSliderPalette.palette; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6A263B0B25BCDA00045E4B /* Info-Sample_App.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Sample_App.plist"; sourceTree = "<group>"; };
 		AE6A263C0B25BCDA00045E4B /* DoubleSliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleSliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,18 +142,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6B97E82F04E1846E00A80202 /* IB Palette code */ = {
-			isa = PBXGroup;
-			children = (
-				AE6A26190B25BCA000045E4B /* Info-IB_Palette.plist */,
-				0259C57BFE90428111CA0C5A /* SMDoubleSliderInspector.h */,
-				0259C577FE90428111CA0C5A /* SMDoubleSliderInspector.m */,
-				0259C57CFE90428111CA0C5A /* SMDoubleSliderPalette.h */,
-				0259C578FE90428111CA0C5A /* SMDoubleSliderPalette.m */,
-			);
-			path = "IB Palette code";
-			sourceTree = "<group>";
-		};
 		6B97E83304E1853200A80202 /* Sample App code */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				27026A730D491DB70074D50A /* Framework_code */,
-				6B97E82F04E1846E00A80202 /* IB Palette code */,
 				6B97E83304E1853200A80202 /* Sample App code */,
 			);
 			name = Classes;
@@ -348,7 +328,11 @@
 			isa = PBXProject;
 			buildConfigurationList = AE6A26200B25BCA200045E4B /* Build configuration list for PBXProject "SMDoubleSlider" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0259C574FE90428111CA0C5A /* KylesIBPalette */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -386,8 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6A260D0B25BCA000045E4B /* SMDoubleSliderInspector.m in Sources */,
-				AE6A260E0B25BCA000045E4B /* SMDoubleSliderPalette.m in Sources */,
 				AE6A260F0B25BCA000045E4B /* SMDoubleSlider.m in Sources */,
 				AE6A26100B25BCA000045E4B /* SMDoubleSliderCell.m in Sources */,
 			);
